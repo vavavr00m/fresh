@@ -28,7 +28,7 @@ Note: All descriptions are from the respective author's repo or from filterlists
 #### filters
 * ([Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2FDandelionSprout%2Fadfilt%2Fmaster%2FAntiFakeTransparentImagesList.txt&title=Dandelion%20Sprout%27s%20Anti-%27Fake%20transparent%20images%27%20List)) | Dandelion Sprout's ♟ Anti-'Fake transparent images' List - Have you browsed through image search engines looking for transparent images, but all you can find are ones with fake transparency and grey chessboards in the background? Then this list is for you.
 * ([Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2FDandelionSprout%2Fadfilt%2Fmaster%2FAntiFunctionalityRemovalList.txt&title=Dandelion%20Sprout%27s%20Anti-%27Functionality%20removal%27%20List)) | Dandelion Sprout's 🧗 Anti-'Functionality removal' List - This list aims to combat some sites' attempts to make it impossible to copy text, right-click on pages, open the F12 menu, create fake loading times, or who otherwise obstruct people from features that they should be perfectly in their rights to have access to.
-* ([Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2FDandelionSprout%2Fadfilt%2Fmaster%2FEmptyPaddingRemover.txt&title=Dandelion%20Sprout%27s%20Empty%20Padding%20Remover)) | Dandelion Sprout's Empty Padding Remover - Are you tired of having to scroll so much on websites, or you want to keep your eyes on more text and content at once? Or perhaps you're tired ot very large shadows on video sites when moving the mouse? If so, this list will help you a little extra bit with that.
+* ([Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2FDandelionSprout%2Fadfilt%2Fmaster%2FEmptyPaddingRemover.txt&title=Dandelion%20Sprout%27s%20Empty%20Padding%20Remover)) | Dandelion Sprout's 🕳 Empty Padding Remover - Are you tired of having to scroll so much on websites, or you want to keep your eyes on more text and content at once? Or perhaps you're tired ot very large shadows on video sites when moving the mouse? If so, this list will help you a little extra bit with that.
 * ([Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2FDandelionSprout%2Fadfilt%2Fmaster%2FAdRemovalListForUnusualAds.txt&title=Dandelion%20Sprout%27s%20Ad%20Removal%20List%20for%20Unusual%20Ads)) | Dandelion Sprout's 🎫 Ad Removal List for Unusual Ads - This is a list to remove the kinds of ads that very few well-established international adblocker lists would want to remove, due to many of them not meeting those lists' strict criteria of what an ad actually is. So that's where this list comes into play.
 * ([Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2FDandelionSprout%2Fadfilt%2Fmaster%2FSpecial%20security%20lists%2FIDNHomographProtectionTotal.txt&title=Dandelion%20Sprout%27s%20IDN%20Homograph%20Attack%20Protection%20-%20Complete%20Blockage)) | Dandelion Sprout's 🆒 IDN Homograph Attack Protection - Complete Blockage - One of many possible ways for malware to try to enter your computers and phones, is through substituting some US Latin letters with lookalike letters from other alphabets and scripts. For instance, most humans can't easily tell A and А apart (except when using certain fonts), but computers can instantly tell the former is Latin and the latter is Cyrillic, and adresses with them are treated as different. However, ALL use of non-US letters in URLs will be treated as 'xn--[random letters]' by HTML-based tools, making it relatively easy to block, which this list will do for you. Note: This version blocks ALL use of non-US letters, including non-Latin TLDs like .рф and .台灣; an alternate list version exists that'll let non-Latin TLDs through. Both versions will also block made-for-convenience European redirects like Elkjøp.no.
 * ([Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2FDandelionSprout%2Fadfilt%2Fmaster%2FI%20Don%27t%20Want%20to%20Download%20Your%20Browser.txt&title=Dandelion%20Sprout%27s%20I%20Don%27t%20Want%20to%20Download%20Your%20Browser=)) | Dandelion Sprout's 🔮 I Don't Want to Download Your Browser - Do you already have a favourite browser or PDF reader? Are you tired of seeing "Try out [some browser] now!" on some websites? Then this is a list for you!
@@ -84,23 +84,23 @@ Note: All descriptions are from the respective author's repo or from filterlists
 * (Deprecated) ([Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2FDandelionSprout%2Fadfilt%2Fmaster%2FRickrollLinkIdentifier.txt&title=Dandelion%20Sprout%27s%20Rickroll%20Link%20Identifier)) | Dandelion Sprout's Rickroll Link Identifier - So you're browsing Reddit or Twitch, and you're seeing an interesting info link? Well… about that link… this list will turn links to the biggest YouTube uploads of Rick Astley's «Never Gonna Give You Up» into a bright red colour, thus helping you steer clear of being rickrolled.
 * (Deprecated) ([Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2FDandelionSprout%2Fadfilt%2Fmaster%2FAnti-%27Christmas%20carols%27%20List.txt&title=Dandelion%20Sprout%27s%20Anti-%27Christmas%20carols%27%20list)) | Dandelion Sprout's 🏖️ Anti-'Christmas carols' List - Do you use music streaming services, and have grown really tired of how the same few songs are covered every year by every band and artist that have ever existed (and some that haven't)? Now you can let your eyes get a break from coming across just those songs. Note that this list very likely doesn't edit the play queue itself, so some caution should be taken when browsing through winter albums and playlists nevertheless.
 * (Deprecated) ([Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2FDandelionSprout%2Fadfilt%2Fmaster%2FAnti-%27Battle%20Royale%27%20List.txt&title=Dandelion%20Sprout%27s%20Anti-%27Battle%20Royale%27%20List)) | Dandelion Sprout's 🧘 Anti-Battle Royale List - The "Battle Royale" videogame genre has escalated in popularity. And with such popularity, comes annoying promotions, hopeless copycats, and questionable fandoms. If you need a breather from such things, this is a list for you.
+
 * Format: * ([Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2F)) |
   
 #### lists that are not domains only but will be utilized as such
 ```
 https://raw.githubusercontent.com/ryanbr/fanboy-adblock/master/fake-news.txt
 https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/anti-rickroll-list.txt
-https://raw.githubusercontent.com/jkrejcha/AdmiraList/master/AdmiraList.txt
 ```
 
 #### domains - uncategorized
 ```
+https://raw.githubusercontent.com/jkrejcha/AdmiraList/master/AdmiraList.txt
 https://raw.githubusercontent.com/ignaciocastro/adobe-is-dumb/main/pihole.txt
 https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt
 https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/Adblock-YouTube-Ads.txt
 https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/hosts/hosts_google_adservice_id.txt
 https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/hoster.txt
-https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/gambling.txt
 https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/domains/ultimate.txt
 https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/doh-vpn-proxy-bypass.txt
 https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/tif.txt
@@ -116,7 +116,6 @@ https://adaway.org/hosts.txt
 https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt
-https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_ads.txt
 https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
@@ -204,6 +203,8 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Other%20domains%20versions/AntiF%25D1%2596%25D0%259C%2520ListDomains.txt
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AntiPCPriceHiderList.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_ads.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_trackers_justdomains.txt
 ```
 
 #### domains - paywall
@@ -237,7 +238,27 @@ https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20list
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20lists/TabloidRemover.txt
 ```
 
-#### domains - spirituality (Tarot Card Reading, Numerology, Palmistry, Astrological Compatibility, Aura Reading, Feng Shui, Crystal Healing, Astrocartography, Dream Interpretation, Energy Healing, I Ching, Runes, Alchemy, Ayurveda, Geomancy, Herbalism/phytotherapy, Tasseography, Spiritualism, Aromatherapy, Chakra Healing, Psychic Readings, Past Life Regression, Energy Psychology, Divination Tools, Sacred Geometry, Akashic Records, Ayahuasca Shamanism, Sacred Plant Medicine, Geomantic Divination, etc.)
+todo 
+```
+types - https://en.wikipedia.org/wiki/Fake_news_website
+https://en.wikipedia.org/wiki/List_of_satirical_news_websites
+https://en.wikipedia.org/wiki/List_of_satirical_fake_news_websites
+https://en.wikipedia.org/wiki/List_of_miscellaneous_fake_news_websites
+https://en.wikipedia.org/wiki/List_of_fake_news_websites
+https://en.wikipedia.org/wiki/List_of_fake_news_websites#Campaigns_by_individuals
+https://en.wikipedia.org/wiki/List_of_fake_news_websites#Fraudulent_fact-checking_websites
+https://en.wikipedia.org/wiki/List_of_fake_news_websites#fake_news_generative_AI
+https://en.wikipedia.org/wiki/List_of_fake_news_websites#Hate_groups
+https://en.wikipedia.org/wiki/List_of_corporate_disinformation_website_campaigns
+https://en.wikipedia.org/wiki/List_of_political_disinformation_website_campaigns_in_the_United_States
+https://en.wikipedia.org/wiki/List_of_political_disinformation_website_campaigns
+https://en.wikipedia.org/wiki/List_of_fake_news_troll_farms
+https://en.wikipedia.org/wiki/List_of_fake_news_websites#User-generated_fake_news
+https://en.wikipedia.org/wiki/List_of_fake_news_websites#Other_networks
+https://en.wikipedia.org/wiki/Fake_news_in_the_Philippines#List_of_fake_news_websites
+```
+
+#### domains - spirituality (Tarot Card Reading, Numerology, Palmistry, Astrological Compatibility, Aura Reading, Feng Shui, Crystal Healing, Astrocartography, Dream Interpretation, Energy Healing, I Ching, Runes, Alchemy, Ayurveda, Geomancy, Herbalism/phytotherapy, Tasseography, Spiritualism, Aromatherapy, Chakra Healing, Psychic Readings, Past Life Regression, Energy Psychology, Divination Tools, Sacred Geometry, Akashic Records, Ayahuasca Shamanism, Sacred Plant Medicine, Geomantic Divination, etc.) (The Phrontistery's wordlist for [divination & fortune-telling](https://phrontistery.info/divine.html), [philosophical -isms](https://phrontistery.info/isms.html))
 ```
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20lists/AntiPreacherList.txt
 ```
@@ -256,6 +277,7 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/
 https://nsfw.oisd.nl
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-only/hosts
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/gambling.txt
 ```
 
 #### list may or may not be critical to website functionality
