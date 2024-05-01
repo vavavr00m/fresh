@@ -1,4 +1,4 @@
-# filters
+# fresh
 Curated list for painless delivery
 
 Note: All descriptions are from the respective author's repo or from filterlists if unavailable elsewhere. Please check each repo for their license.
