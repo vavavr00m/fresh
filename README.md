@@ -268,7 +268,6 @@ https://codeberg.org/badandugly/badandugly/raw/branch/main/blocklist
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-only/hosts
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20lists/TabloidRemover-MastodonCategoryForImports.csv
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20lists/TabloidRemover.txt
-https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/anti-rickroll-list.txt
 ```
 
 todo 
