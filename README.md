@@ -124,12 +124,6 @@ Note: All descriptions are from the respective author's repo/website or from fil
 * (Deprecated) ([Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2FDandelionSprout%2Fadfilt%2Fmaster%2FAnti-%27Battle%20Royale%27%20List.txt&title=Dandelion%20Sprout%27s%20Anti-%27Battle%20Royale%27%20List)) | Dandelion Sprout's 🧘 Anti-Battle Royale List - The "Battle Royale" videogame genre has escalated in popularity. And with such popularity, comes annoying promotions, hopeless copycats, and questionable fandoms. If you need a breather from such things, this is a list for you.
 
 * Format: * ([Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2F)) |
-  
-#### lists that are not domains only but will be utilized as such
-```
-https://raw.githubusercontent.com/ryanbr/fanboy-adblock/master/fake-news.txt
-https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/anti-rickroll-list.txt
-```
 
 #### domains - uncategorized
 ```
@@ -260,7 +254,7 @@ https://raw.githubusercontent.com/SoftCreatR/fakerando-domains/main/all.txt
 https://raw.githubusercontent.com/stonecrusher/filterlists-pihole/master/watchlist-internet-ph.txt
 ```
 
-#### domains - manipueddlers (fake, clickbait, hoax, conspiracy, satirical/spoof, propaganda, extremist, fascist, communist, QAnon, state-backed disinformation operation, hate speech, unfounded information, misinformation, tabloid, etc.)
+#### domains - manipueddlers (rickroll, fake, clickbait, hoax, conspiracy, satirical/spoof, propaganda, extremist, fascist, communist, QAnon, state-backed disinformation operation, hate speech, unfounded information, misinformation, tabloid, etc.)
 ```
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
 https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/clickbait.txt
@@ -274,6 +268,7 @@ https://codeberg.org/badandugly/badandugly/raw/branch/main/blocklist
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-only/hosts
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20lists/TabloidRemover-MastodonCategoryForImports.csv
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20lists/TabloidRemover.txt
+https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/anti-rickroll-list.txt
 ```
 
 todo 
