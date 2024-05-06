@@ -125,6 +125,71 @@ Note: All descriptions are from the respective author's repo/website or from fil
 
 * Format: * ([Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2F)) |
 
+#### regex
+```
+https://raw.githubusercontent.com/slyfox1186/pihole-regex/main/domains/regex-blacklist.sql
+https://raw.githubusercontent.com/mmotti/pihole-regex/master/regex.list
+https://raw.githubusercontent.com/mmotti/pihole-regex/master/user%20suggested/first-party%20trackers.list
+https://raw.githubusercontent.com/mmotti/pihole-regex/master/miscellaneous/amp.list
+https://raw.githubusercontent.com/mmotti/pihole-regex/master/miscellaneous/internationalized%20domains.list
+```
+
+#### regex from [Regex Megathread](https://www.reddit.com/r/pihole/comments/b3fj60/regex_megathread/)
+```
+(ads|logs|cloudservices|captive).roku.com$ # Roku by [trader758](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eizc1y1/) & [a-p-o-c](https://www.reddit.com/r/pihole/comments/b3fj60/comment/ej27s72/)
+(^|\.)xn--.*$ # Internationalized Domain Name by [EchoNoise](https://www.reddit.com/r/pihole/comments/b3fj60/comment/ej0c5un/)
+(^|\.)buffpanel\.com$ # Trackers in games by [nobodysu](https://www.reddit.com/r/pihole/comments/b3fj60/comment/et6m5vq/)
+(^|\.)bugsnag\.com$ # Trackers in games by [nobodysu](https://www.reddit.com/r/pihole/comments/b3fj60/comment/et6m5vq/)
+(^|\.)redshell\.io$ # Trackers in games by [nobodysu](https://www.reddit.com/r/pihole/comments/b3fj60/comment/et6m5vq/)
+(^|\.)treasuredata\.com$ # Trackers in games by [nobodysu](https://www.reddit.com/r/pihole/comments/b3fj60/comment/et6m5vq/)
+(^|\.)unity(|3d)\.com$ # Trackers in games by [nobodysu](https://www.reddit.com/r/pihole/comments/b3fj60/comment/et6m5vq/)
+(^|\.)unityads(|\.co)\.com$ # Trackers in games by [nobodysu](https://www.reddit.com/r/pihole/comments/b3fj60/comment/et6m5vq/)
+.*\.g[0-9]+\..* # Instart Logic ads by [mrcaptncrunch](https://www.reddit.com/r/pihole/comments/b3fj60/comment/em1c476/) - This will match anything containing .g[any number combinations]. Blocks g00 subdomains used by Instart Logic to serve ads. The g00 subdomain is created on the domain of the content server.
+^https?://([A-Za-z0-9.-]*\.)?clicks\.beap\.bc\.yahoo\.com/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?secure\.footprint\.net/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?match\.com/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?clicks\.beap\.bc\.yahoo(\.\w{2}\.\w{2}|\.\w{2,4})/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?sitescout(\.\w{2}\.\w{2}|\.\w{2,4})/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?appnexus(\.\w{2}\.\w{2}|\.\w{2,4})/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?evidon(\.\w{2}\.\w{2}|\.\w{2,4})/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?mediamath(\.\w{2}\.\w{2}|\.\w{2,4})/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?scorecardresearch(\.\w{2}\.\w{2}|\.\w{2,4})/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?flashtalking(\.\w{2}\.\w{2}|\.\w{2,4})/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?turn(\.\w{2}\.\w{2}|\.\w{2,4})/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?mathtag(\.\w{2}\.\w{2}|\.\w{2,4})/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?googlesyndication(\.\w{2}\.\w{2}|\.\w{2,4})/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?s\.yimg\.com/cv/ae/us/audience/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?clicks\.beap/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?.doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?yieldmanager(\.\w{2}\.\w{2}|\.\w{2,4})/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?w55c(\.\w{2}\.\w{2}|\.\w{2,4})/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?adnxs(\.\w{2}\.\w{2}|\.\w{2,4})/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?advertising\.com/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?evidon\.com/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?scorecardresearch\.com/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?flashtalking\.com/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?turn\.com/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?mathtag\.com/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?surveylink/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?info\.yahoo\.com/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?ads\.yahoo\.com/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^https?://([A-Za-z0-9.-]*\.)?global\.ard\.yahoo\.com/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+(^|\.)lgsmartad\.com$ # [LG WebOS TVs ds](https://www.reddit.com/r/pihole/comments/b3fj60/comment/ewbcr3m/)
+ngfts.lge.com # [LG WebOS TVs ds](https://www.reddit.com/r/pihole/comments/b3fj60/comment/ewbcr3m/)
+lgtvonline.lge.com # [LG WebOS TVs ds](https://www.reddit.com/r/pihole/comments/b3fj60/comment/ewbcr3m/)
+(^|\.)facebook\.[A-Za-z0-9]+$ # Meta services by [nobodysu](https://www.reddit.com/r/pihole/comments/b3fj60/comment/et6kikc/)
+(^|\.)fb\.[A-Za-z0-9]+$ # Meta services by [nobodysu](https://www.reddit.com/r/pihole/comments/b3fj60/comment/et6kikc/)
+(^|\.)fbcdn\.[A-Za-z0-9]+$ # Meta services by [nobodysu](https://www.reddit.com/r/pihole/comments/b3fj60/comment/et6kikc/)
+(^|\.)fbsbx\.com$ # Meta services by [nobodysu](https://www.reddit.com/r/pihole/comments/b3fj60/comment/et6kikc/)
+(^|\.)fbsbx\.com\.online-metrix\.net$ # Meta services by [nobodysu](https://www.reddit.com/r/pihole/comments/b3fj60/comment/et6kikc/)
+(^|\.)m\.me$ # Meta services by [nobodysu](https://www.reddit.com/r/pihole/comments/b3fj60/comment/et6kikc/)
+(^|\.)messenger\.com$ # Meta services by [nobodysu](https://www.reddit.com/r/pihole/comments/b3fj60/comment/et6kikc/)
+(^|\.)tfbnw\.net$ # Meta services by [nobodysu](https://www.reddit.com/r/pihole/comments/b3fj60/comment/et6kikc/)
+(^|\.)instagram\.com$ # Meta services by [nobodysu](https://www.reddit.com/r/pihole/comments/b3fj60/comment/et6kikc/)
+(^|\.)whatsapp\.com$ # Meta services by [nobodysu](https://www.reddit.com/r/pihole/comments/b3fj60/comment/et6kikc/)
+```
+
 #### domains - uncategorized
 ```
 https://raw.githubusercontent.com/jkrejcha/AdmiraList/master/AdmiraList.txt
@@ -151,7 +216,6 @@ https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt
 https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
-https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto
 https://v.firebog.net/hosts/Prigent-Malware.txt
 https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
 https://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt
@@ -239,6 +303,20 @@ https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Other%20domains%
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AntiPCPriceHiderList.txt
 https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_ads.txt
 https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_trackers_justdomains.txt
+https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/basic-nl.txt
+```
+
+#### domains - crypto
+```
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto
+https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt
 ```
 
 #### domains - paywall
@@ -254,6 +332,9 @@ https://raw.githubusercontent.com/FiltersHeroes/KADhosts/master/KADomains.txt
 https://raw.githubusercontent.com/DRSDavidSoft/additional-hosts/master/domains/blacklist/fake-domains.txt
 https://raw.githubusercontent.com/SoftCreatR/fakerando-domains/main/all.txt
 https://raw.githubusercontent.com/stonecrusher/filterlists-pihole/master/watchlist-internet-ph.txt
+https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt
 ```
 
 #### domains - manipueddlers (rickroll, fake, clickbait, hoax, conspiracy, satirical/spoof, propaganda, extremist, fascist, communist, QAnon, state-backed disinformation operation, hate speech, unfounded information, misinformation, tabloid, etc.)
@@ -297,7 +378,7 @@ https://en.wikipedia.org/wiki/Fake_news_in_the_Philippines#List_of_fake_news_web
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20lists/AntiPreacherList.txt
 ```
 
-#### domains - child protection (porn, gambling)
+#### domains - child protection (drugs, porn, gambling, vaping)
 ```
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock1
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock2
@@ -312,6 +393,10 @@ https://nsfw.oisd.nl
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-only/hosts
 https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/gambling.txt
+https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/porn-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/vaping-nl.txt
 ```
 
 #### list may or may not be critical to website functionality
@@ -327,6 +412,7 @@ https://raw.githubusercontent.com/bloodhunterd/pi-hole-blocklists/master/Twitch.
 https://raw.githubusercontent.com/bloodhunterd/pi-hole-blocklists/master/Ubisoft.txt
 https://raw.githubusercontent.com/bloodhunterd/pi-hole-blocklists/master/Xiaomi.txt
 https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all
+https://blocklistproject.github.io/Lists/alt-version/facebook-nl.txt
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
@@ -345,4 +431,9 @@ https://raw.githubusercontent.com/furkun/AndroidSecurityHosts/main/hosts
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social-only/hosts
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GDPR%20451%20List.txt
 https://raw.githubusercontent.com/soteria-nou/domain-list/master/widgets.txt
+https://blocklistproject.github.io/Lists/alt-version/piracy-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/whatsapp-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/adobe-nl.txt
 ```
