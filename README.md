@@ -24,6 +24,7 @@ Note: All descriptions are from the respective author's repo/website or from fil
 * ([Chrome Web Store](https://chromewebstore.google.com/detail/autocontrol-keyboard-shor/lkaihdpfpifdlgoapbfocpmekbokmcfd)) | [AutoControl](https://www.autocontrol.app/)
 * ([Chrome Web Store](https://chromewebstore.google.com/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl)) | ([GH Source](https://github.com/mrcoles/full-page-screen-capture-chrome-extension) - outdated) | GoFullPage
 * ([Chrome Web Store](https://chromewebstore.google.com/detail/autoplaystopper/ejddcgojdblidajhngkogefpkknnebdh?hl=en)) | AutoplayStopper - supports DailyMotion
+* ([Chrome Web Store](https://chromewebstore.google.com/detail/imsteam/ngkhabcnlbbbfgalblmejolbifddmoji)) | ([GH Source](https://github.com/iMAboud/iMSteam)) | iMSteam
 * ([Unofficial Chrome Web Store](https://chromewebstore.google.com/detail/localcdn/njdfdhgcmkocbgbhcioffdbicglldapd)) | ([CB Source](https://codeberg.org/nobody/LocalCDN)) | [LocalCDN](https://www.localcdn.org/)
 * ([GH Source](https://github.com/iamadamdev/bypass-paywalls-chrome)) | Bypass Paywalls
 * (Deprecated) ([Chrome Web Store](https://chromewebstore.google.com/detail/hello-goodbye/nihpfpbibfgpgnfpbfedkdokihggapoi)) | ([GH Source](https://github.com/bcye/Hello-Goodbye)) | [Hello, Goodbye](https://hellogoodbye.app/?ref=github.com) - Also available in filter list
@@ -125,16 +126,14 @@ Note: All descriptions are from the respective author's repo/website or from fil
 
 * Format: * ([Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2F)) |
 
-#### regex
+#### regex lists
 ```
-https://raw.githubusercontent.com/slyfox1186/pihole-regex/main/domains/regex-blacklist.sql
-https://raw.githubusercontent.com/mmotti/pihole-regex/master/regex.list
+https://raw.githubusercontent.com/slyfox1186/pihole-regex/main/domains/regex-blacklist.sql ([mmoti's list](https://raw.githubusercontent.com/mmotti/pihole-regex/master/regex.list) is already included)
 https://raw.githubusercontent.com/mmotti/pihole-regex/master/user%20suggested/first-party%20trackers.list
 https://raw.githubusercontent.com/mmotti/pihole-regex/master/miscellaneous/amp.list
-https://raw.githubusercontent.com/mmotti/pihole-regex/master/miscellaneous/internationalized%20domains.list
 ```
 
-#### regex from [Regex Megathread](https://www.reddit.com/r/pihole/comments/b3fj60/regex_megathread/)
+#### regex
 ```
 (ads|logs|cloudservices|captive).roku.com$ # Roku by [trader758](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eizc1y1/) & [a-p-o-c](https://www.reddit.com/r/pihole/comments/b3fj60/comment/ej27s72/)
 (^|\.)xn--.*$ # Internationalized Domain Name by [EchoNoise](https://www.reddit.com/r/pihole/comments/b3fj60/comment/ej0c5un/)
@@ -175,9 +174,16 @@ https://raw.githubusercontent.com/mmotti/pihole-regex/master/miscellaneous/inter
 ^https?://([A-Za-z0-9.-]*\.)?info\.yahoo\.com/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
 ^https?://([A-Za-z0-9.-]*\.)?ads\.yahoo\.com/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
 ^https?://([A-Za-z0-9.-]*\.)?global\.ard\.yahoo\.com/ # by [rbhus](https://www.reddit.com/r/pihole/comments/b3fj60/comment/eoqymdj/)
+^(.+[_.-])?eulerian\.net$ # First-Party Trackers by [mmoti](https://github.com/mmotti/pihole-regex/blob/master/user%20suggested/first-party%20trackers.list)
+^(.+[_.-])?dnsdelegation\.io$ # First-Party Trackers by [mmoti](https://github.com/mmotti/pihole-regex/blob/master/user%20suggested/first-party%20trackers.list)
+^(.+[_.-])?amp(project)?\. # AMP Project by [mmoti](https://raw.githubusercontent.com/mmotti/pihole-regex/master/miscellaneous/amp.list)
 (^|\.)lgsmartad\.com$ # [LG WebOS TVs ds](https://www.reddit.com/r/pihole/comments/b3fj60/comment/ewbcr3m/)
 ngfts.lge.com # [LG WebOS TVs ds](https://www.reddit.com/r/pihole/comments/b3fj60/comment/ewbcr3m/)
 lgtvonline.lge.com # [LG WebOS TVs ds](https://www.reddit.com/r/pihole/comments/b3fj60/comment/ewbcr3m/)
+```
+
+#### regex - list may or may not be critical to website functionality
+```
 (^|\.)facebook\.[A-Za-z0-9]+$ # Meta services by [nobodysu](https://www.reddit.com/r/pihole/comments/b3fj60/comment/et6kikc/)
 (^|\.)fb\.[A-Za-z0-9]+$ # Meta services by [nobodysu](https://www.reddit.com/r/pihole/comments/b3fj60/comment/et6kikc/)
 (^|\.)fbcdn\.[A-Za-z0-9]+$ # Meta services by [nobodysu](https://www.reddit.com/r/pihole/comments/b3fj60/comment/et6kikc/)
