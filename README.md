@@ -227,6 +227,7 @@ https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAd
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Spotify-AdBlock.txt
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt
+https://raw.githubusercontent.com/Jigsaw88/Spotify-Ad-List/main/Spotify%20Adblock.txt
 https://raw.githubusercontent.com/soteria-nou/domain-list/master/ads.txt
 https://raw.githubusercontent.com/soteria-nou/domain-list/master/affiliate.txt
 https://raw.githubusercontent.com/soteria-nou/domain-list/master/analytics.txt
