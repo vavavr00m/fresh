@@ -63,8 +63,9 @@ Note: All descriptions are from the respective author's repo/website or from fil
 
 #### userscripts
 ([Downstall](https://github.com/Sak32009/GetDataFromSteam-SteamDB/raw/main/dist/sak32009-get-data-from-steam-steamdb.user.js)) | ([GH Source](https://github.com/Sak32009/GetDataFromSteam-SteamDB)) | [Get Data from Steam / SteamDB](https://cs.rin.ru/forum/viewtopic.php?f=29&t=71837)
-https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_19_Annoyances_Popups/filter.txt
+
 #### filters
+* ([Subscribe](https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames_UBO.txt)) | Inversion-DNSBL-Blocklists - Malicious URLs identified by scanning various public URL sources using the Google Safe Browsing API (over 6 billion URLs scanned daily). Has domain only version available.
 * ([Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2FAdguardTeam%2FFiltersRegistry%2Fmaster%2Ffilters%2Ffilter_19_Annoyances_Popups%2Ffilter.txt&title=AdGuard%20Popups%20Filter)) | AdGuard Popups filter - Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
 * ([Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2FDandelionSprout%2Fadfilt%2Fmaster%2FAntiFakeTransparentImagesList.txt&title=Dandelion%20Sprout%27s%20Anti-%27Fake%20transparent%20images%27%20List)) | Dandelion Sprout's ♟ Anti-'Fake transparent images' List - Have you browsed through image search engines looking for transparent images, but all you can find are ones with fake transparency and grey chessboards in the background? Then this list is for you.
 * ([Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2FDandelionSprout%2Fadfilt%2Fmaster%2FAntiFunctionalityRemovalList.txt&title=Dandelion%20Sprout%27s%20Anti-%27Functionality%20removal%27%20List)) | Dandelion Sprout's 🧗 Anti-'Functionality removal' List - This list aims to combat some sites' attempts to make it impossible to copy text, right-click on pages, open the F12 menu, create fake loading times, or who otherwise obstruct people from features that they should be perfectly in their rights to have access to.
@@ -295,7 +296,7 @@ https://raw.githubusercontent.com/namePlayer/dhl-scamlist/main/dns-blocklists/pi
 https://www.einmalzahlungzweihundert.de/bl-einmalzahlung.txt
 https://big.oisd.nl
 https://v.firebog.net/hosts/static/w3kbl.txt
-https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames_ABP.txt
+https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames.txt
 https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt
 https://v.firebog.net/hosts/Easyprivacy.txt
 https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
