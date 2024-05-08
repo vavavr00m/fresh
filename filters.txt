@@ -5,9 +5,12 @@ www.martview-forum.com##.is-vis-processed.notice--hidenarrow.notice--primary.js-
 www.martview-forum.com##.is-vis-processed.notice--hidenarrow.notice--primary.js-notice.notice
 
 ! https://sanet.st
+sanet.st##.s_d.s_nt
 sanet.st###\31
 sanet.st###\30
+sanet.st##body > div:nth-child(12)
 sanet.st##body > div:nth-child(14)
+sanet.st##body > div:nth-of-type(3)
 
 ! https://www.creativefabrica.com
 www.creativefabrica.com##.current.blocker.jquery-modal > .modal
