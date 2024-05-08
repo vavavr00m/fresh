@@ -1,0 +1,14 @@
+! https://www.martview-forum.com
+||static.martview-forum.com/data/avatars/*/78/78625.jpg?1571756415$image
+www.martview-forum.com##.is-vis-processed.notice--hidenarrow.notice--primary.js-notice.notice > .uix_noticeInner > .notice-content
+www.martview-forum.com##.is-vis-processed.notice--hidenarrow.notice--primary.js-notice.notice > .uix_noticeInner
+www.martview-forum.com##.is-vis-processed.notice--hidenarrow.notice--primary.js-notice.notice
+
+! https://sanet.st
+sanet.st###\31
+sanet.st###\30
+sanet.st##body > div:nth-child(14)
+
+! https://www.creativefabrica.com
+www.creativefabrica.com##.current.blocker.jquery-modal > .modal
+www.creativefabrica.com##.current.blocker.jquery-modal
