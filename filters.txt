@@ -16,3 +16,9 @@ sanet.st##body > div:nth-of-type(3)
 www.creativefabrica.com##.current.blocker.jquery-modal > .modal
 www.creativefabrica.com##.current.blocker.jquery-modal
 ||www.creativefabrica.com/wp-admin/admin-ajax.php$xhr,domain=www.creativefabrica.com
+
+! https://nitroflare.com
+||nitroflare.com/img/welcome2purchase.png?v=1.0.0$image
+nitroflare.com###superbox-container
+nitroflare.com###superbox-wrapper
+nitroflare.com###superbox-overlay
