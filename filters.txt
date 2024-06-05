@@ -11,6 +11,7 @@ sanet.st###\30
 sanet.st##body > div:nth-child(12)
 sanet.st##body > div:nth-child(14)
 sanet.st##body > div:nth-of-type(3)
+sanet.st##body > div:nth-of-type(4)
 
 ! https://www.creativefabrica.com
 www.creativefabrica.com##.current.blocker.jquery-modal > .modal
