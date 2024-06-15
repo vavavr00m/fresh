@@ -12,6 +12,7 @@ sanet.st##body > div:nth-child(12)
 sanet.st##body > div:nth-child(14)
 sanet.st##body > div:nth-of-type(3)
 sanet.st##body > div:nth-of-type(4)
+sanet.st##+js(abort-on-stack-trace, document.createElement, onerror)
 
 ! https://www.creativefabrica.com
 www.creativefabrica.com##.current.blocker.jquery-modal > .modal
