@@ -1,3 +1,8 @@
+! global
+||gecdwmkee.com^$xhr
+||mlldrlujqg.com^$xhr
+||hksnu.com^$xhr
+
 ! https://www.martview-forum.com
 ||static.martview-forum.com/data/avatars/*/78/78625.jpg?1571756415$image
 www.martview-forum.com##.is-vis-processed.notice--hidenarrow.notice--primary.js-notice.notice > .uix_noticeInner > .notice-content
@@ -20,9 +25,14 @@ sanet.st##+js(abort-on-stack-trace, document.createElement, onerror)
 www.creativefabrica.com##.current.blocker.jquery-modal > .modal
 www.creativefabrica.com##.current.blocker.jquery-modal
 ||www.creativefabrica.com/wp-admin/admin-ajax.php$xhr,domain=www.creativefabrica.com
+www.creativefabrica.com###scroll-for-more
 
 ! https://nitroflare.com
 ||nitroflare.com/img/welcome2purchase.png?v=1.0.0$image
 nitroflare.com###superbox-container
 nitroflare.com###superbox-wrapper
 nitroflare.com###superbox-overlay
+
+! https://trends.kpopmap.com
+trends.kpopmap.com##.sticky.non-member.layer-get
+trends.kpopmap.com##.bk-bg
