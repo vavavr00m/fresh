@@ -1,4 +1,15 @@
+global:
 * https://challenges.cloudflare.com * noop
 * https://www.google.com/recaptcha/ * noop
 * https://www.gstatic.com/recaptcha/ * noop
 * https://www.recaptcha.net/ * noop
+
+specific:
+* https://www.google.com/recaptcha/api * noop
+* https://www.google.com/recaptcha/enterprise * noop
+* https://www.gstatic.com/recaptcha/api * noop
+* https://www.gstatic.com/recaptcha/releases * noop
+* https://www.recaptcha.net/recaptcha/api script noop
+* https://www.recaptcha.net/recaptcha/enterprise script noop
+* https://www.google.com/js/bg/ script noop
+* https://challenges.cloudflare.com * noop
