@@ -1,0 +1,4 @@
+* https://challenges.cloudflare.com * noop
+* https://www.google.com/recaptcha/ * noop
+* https://www.gstatic.com/recaptcha/ * noop
+* https://www.recaptcha.net/ * noop
