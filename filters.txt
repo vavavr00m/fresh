@@ -1,4 +1,4 @@
-! global
+! global (detected from sanet.st but now generically blocked by ``||sanet.st^$inline-script,1p`` but can still be useful on other websites)
 ||gecdwmkee.com
 ||mlldrlujqg.com
 ||hksnu.com
@@ -12,6 +12,7 @@ www.martview-forum.com##.is-vis-processed.notice--hidenarrow.notice--primary.js-
 www.martview-forum.com##.is-vis-processed.notice--hidenarrow.notice--primary.js-notice.notice
 
 ! https://sanet.st
+||sanet.st^$inline-script,1p
 sanet.st##.s_d.s_nt
 sanet.st###\30
 sanet.st###\31
@@ -20,7 +21,6 @@ sanet.st##body > div:nth-child(14)
 sanet.st##body > div:nth-of-type(3)
 sanet.st##body > div:nth-of-type(4)
 sanet.st##body > div:nth-of-type(5)
-sanet.st##+js(abort-on-stack-trace, document.createElement, onerror)
 
 ! https://www.creativefabrica.com
 www.creativefabrica.com##.current.blocker.jquery-modal > .modal
