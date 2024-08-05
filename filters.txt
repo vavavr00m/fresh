@@ -1,4 +1,4 @@
-! global (detected from sanet.st but now generically blocked by ``||sanet.st^$inline-script,1p`` but can still be useful on other websites)
+! global (detected from sanet.st but now generically blocked by ||sanet.st^$inline-script,1p but can still be useful on other websites)
 ||gecdwmkee.com
 ||mlldrlujqg.com
 ||hksnu.com
@@ -37,3 +37,13 @@ nitroflare.com###superbox-overlay
 ! https://trends.kpopmap.com
 trends.kpopmap.com##.sticky.non-member.layer-get
 trends.kpopmap.com##.bk-bg
+
+! https://www.pep.ph
+www.pep.ph##.l-innr__side
+www.pep.ph##.dm-holder.c-ad__item
+www.pep.ph##.dt-content-wrap
+
+! https://news.abs-cbn.com
+news.abs-cbn.com##.css-1ft02zi.MuiBox-root
+news.abs-cbn.com##.css-2m7126.MuiBox-root.wrapper
+news.abs-cbn.com##div.css-15j76c0.MuiGrid-grid-md-12.MuiGrid-grid-xs-12.MuiGrid-item.MuiGrid-root:nth-of-type(8)
