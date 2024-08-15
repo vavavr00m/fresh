@@ -24,6 +24,8 @@ sanet.st##body > div:nth-of-type(5)
 ||sanet.st^$inline-script,1p
 @@||sanet.st/community/$inline-script,1p
 @@||sanet.st/blogs/$inline-script,1p
+@@||newassets.hcaptcha.com/captcha/v1/*/static/hcaptcha.html$subdocument
+@@||sanet.st/cdn-cgi/challenge-platform/scripts/jsd/main.js$script,1p
 
 ! https://www.creativefabrica.com
 www.creativefabrica.com##.current.blocker.jquery-modal > .modal
