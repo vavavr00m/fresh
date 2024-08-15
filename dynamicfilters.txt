@@ -14,9 +14,11 @@ specific:
 * https://www.recaptcha.net/recaptcha/enterprise script noop
 * https://www.google.com/js/bg/ script noop
 * https://challenges.cloudflare.com * noop
-* https://newassets.hcaptcha.com/captcha/v1 * noop
+* https://newassets.hcaptcha.com * noop
 * https://api.hcaptcha.com * noop
+* https://api2.hcaptcha.com * noop
 * https://imgs3.hcaptcha.com * noop
+* https://js.hcaptcha.com/1/api.js * noop
 
 base uBlock Origin:
 no-large-media: behind-the-scene false
